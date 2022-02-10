@@ -4,6 +4,7 @@ import PackageDescription
 
 let package = Package(
     name: "NMapsMap",
+    defaultLocalization: "ko",
     platforms: [
         .iOS(.v13)
     ],
@@ -18,8 +19,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "NMapsMap",
-            url: "https://github.com/jaemyeong/NMapsMap-SPM/releases/download/3.14.0/NMapsMap.xcframework.zip",
-            checksum: "0f552f630bab0d144ea30621f1f3b4265441c2a2abd2d595b063fcd2b04d5c31"
+            url: "https://github.com/jaemyeong/NMapsMap-SPM/releases/download/3.14.1/NMapsMap.xcframework.zip",
+            checksum: "400bf1dcacdfa9ac3c41dac7e60e05b149903ca9cc0195a4e7a3dc100472680c"
         )
     ]
 )

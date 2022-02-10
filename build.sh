@@ -2,7 +2,7 @@
 
 set -e
 
-VERSION="release/3.14.0"
+VERSION="release/3.14.1"
 
 git clone --depth=1 --branch="${VERSION}" https://github.com/navermaps/NMapsMap.git
 
@@ -32,3 +32,5 @@ rm -rf iphoneos
 zip -r NMapsMap.xcframework.zip NMapsMap.xcframework
 
 rm -rf NMapsMap.xcframework
+
+swift package compute-checksum NMapsMap.xcframework.zip

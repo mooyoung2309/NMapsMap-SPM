@@ -2,7 +2,7 @@
 
 set -e
 
-VERSION="release/3.14.1"
+VERSION="release/3.14.2"
 
 git clone --depth=1 --branch="${VERSION}" https://github.com/navermaps/NMapsMap.git
 

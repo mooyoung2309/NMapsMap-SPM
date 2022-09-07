@@ -2,13 +2,12 @@
 
 [NMapsMap](https://github.com/navermaps/NMapsMap) 비공식 스위프트 패키지입니다.
 
-NMapsMap 3.15.0 버전을 기반으로 제작되었습니다.
-
+NMapsMap 3.16.0 버전을 기반으로 제작되었습니다.
 
 ## Requirements
 
-- macOS 12.3.1
-- Xcode 13.3.1
+- macOS 12.5.1
+- Xcode 13.4.1
 - Swift 5.6
 
 ## Installation
@@ -16,7 +15,7 @@ NMapsMap 3.15.0 버전을 기반으로 제작되었습니다.
 ### Swift Package Manager
 
 ```swift
-.package(url: "https://github.com/jaemyeong/NMapsMap-SPM.git", .upToNextMajor(from: "3.15.0"))
+.package(url: "https://github.com/jaemyeong/NMapsMap-SPM.git", .upToNextMajor(from: "3.16.0"))
 ```
 
 ## Usage

@@ -6,21 +6,21 @@ let package = Package(
     name: "NMapsMap",
     defaultLocalization: "ko",
     platforms: [
-        .iOS(.v13)
+        .iOS(.v13),
     ],
     products: [
         .library(
             name: "NMapsMap",
             targets: [
-                "NMapsMap"
+                "NMapsMap",
             ]
         )
     ],
     targets: [
         .binaryTarget(
             name: "NMapsMap",
-            url: "https://github.com/jaemyeong/NMapsMap-SPM/releases/download/3.15.0/NMapsMap.xcframework.zip",
-            checksum: "ceef4e430a1a3c7d99c4c7da7be7cd1b5b8fa75cb0f5d5935da5685f3b5d39c9"
-        )
+            url: "https://github.com/jaemyeong/NMapsMap-SPM/releases/download/3.16.0/NMapsMap.xcframework.zip",
+            checksum: "efa36d05b32ec32eef6e26047d3830ace3906cd07e62a848ca9db59f02f0a2e4"
+        ),
     ]
 )
